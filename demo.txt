@@ -1,0 +1,11 @@
+create table 
+if not exists
+demo.demo
+(
+version int,
+update_time timestamp
+)
+;
+
+commit;
+
